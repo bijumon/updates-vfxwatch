@@ -1,0 +1,6 @@
+baseURL = "https://updates.vfxwatch.com"
+languageCode = "en-us"
+title = "Updates"
+contentDir = "Content"
+publishDir = "public_www"
+theme = "bklogs"

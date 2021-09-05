@@ -1,0 +1,23 @@
+
+{{define "main"}}
+
+<!--$paginator-->
+{{$p := .Pages}}
+{{if .IsHome}}
+{{$p = where site.RegularPages "Type" "in" site.Params.mainSections}}
+{{else if eq .Kind "taxonomy"}}
+{{$p = $p.ByTitle}}
+{{end}}
+{{$paginator := .Paginate $p}}
+
+<div>
+	{{range $paginator.Pages}}
+	<div class="post-date">{{.Date.Format "2006-01-02"}}</div>
+	<div class="post-link"><a href="{{.RelPermalink}}">{{.Title}}</a></div>
+	{{end}}
+</div>
+
+<!--pagination-->
+{{template "_internal/pagination.html" .}}
+
+{{end}}

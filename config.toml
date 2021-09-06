@@ -3,4 +3,5 @@ languageCode = "en-us"
 title = "Updates"
 contentDir = "Content"
 publishDir = "public_www"
+paginate = 5
 theme = "bklogs"

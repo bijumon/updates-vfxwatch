@@ -12,8 +12,11 @@
 
 <div>
 	{{range $paginator.Pages}}
-	<div class="post-date">{{.Date.Format "2006-01-02"}}</div>
-	<div class="post-link"><a href="{{.RelPermalink}}">{{.Title}}</a></div>
+	<div>
+		<span class="post-link"><a href="{{.RelPermalink}}">{{.Title}}</a></span>
+		<span class="post-date"> &middot; {{.Date.Format "2006-01-02"}}</span>
+		<p class="post__summary">{{ .Summary }}</p>
+	</div>
 	{{end}}
 </div>
 

@@ -3,5 +3,12 @@ languageCode = "en-us"
 title = "Updates"
 contentDir = "Content"
 publishDir = "public_www"
-paginate = 5
+paginate = 9
 theme = "bklogs"
+
+[params]
+    subtitle = "I dont think I've become old. Just more aware of where the next lavatory is - Terry Pratchett, The Last Hero"
+
+[markup]
+  [markup.highlight]
+    style = 'github'

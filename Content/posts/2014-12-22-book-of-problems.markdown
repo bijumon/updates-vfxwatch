@@ -1,6 +1,6 @@
 ---
+title: "Book of problems"
 date: "2014-12-22T00:00:00Z"
-title: "book of problems"
 tags:
 - math
 ---
@@ -8,6 +8,8 @@ tags:
 A Problem Book contains a collection of mathematical or other problems,
 with enough theory as guidelines and a collection of links to other
 resources. We use a single ipython document for each book.
+
+<!--more-->
 
 -   Number theory, Koshy
 -   Burman

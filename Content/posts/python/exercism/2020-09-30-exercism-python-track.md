@@ -7,6 +7,8 @@ I am working through Exercism's [Python Track](https://exercism.io/my/tracks/pyt
 ## Setup
 Exercism uses a command-line client as a link between the website and our local work. Latest releases of the client is available at https://github.com/exercism/cli. Arch/Manjaro Linux binary package is available at the Arch User Repository, [exercism](https://aur.archlinux.org/packages/exercism/) or [exercism-bin](https://aur.archlinux.org/packages/exercism-bin/).
 
+<!--more-->
+
 ``` shell
 # yay is an Arch User Repository (AUR) helper 
 # get it from https://github.com/Jguer/yay

@@ -6,9 +6,9 @@ tags:
 - practice
 title: 'exercism python #1 - hello world'
 ---
-https://exercism.io/my/solutions/04bcc66509104f5c91ccb6cc39280a64
-
 Write a function that returns the string "Hello, World!".
+
+<!--more-->
 
 ``` python
 # hello_world.py

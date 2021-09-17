@@ -1,6 +1,6 @@
 ---
-date: "2014-12-30T00:00:00Z"
 title: "pgen static site generator"
+date: "2014-12-30T00:00:00Z"
 tags:
 - python
 - projects
@@ -8,6 +8,8 @@ tags:
 
 **_pgen_** converts a folder of template (jinja2) and markdown files to
 html, while preserving paths.
+
+<!--more-->
 
 siteconfig
 ----------

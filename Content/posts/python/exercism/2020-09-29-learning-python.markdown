@@ -1,6 +1,6 @@
 ---
+title: "learning Python"
 date: "2020-09-29T00:00:00Z"
-title: "Learning Python"
 tags:
 - python
 ---
@@ -14,6 +14,8 @@ print "Python 3"
 print("OOPS!")
 # OOPS!
 ```
+
+<!--more-->
 
 Start executable scripts with a *hashbang*
 

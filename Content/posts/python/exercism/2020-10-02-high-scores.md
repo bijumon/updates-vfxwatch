@@ -6,7 +6,11 @@ tags:
 - practice
 title: 'exercism python #4 - high scores'
 ---
-https://exercism.io/my/solutions/30770ae4fb07446fb9b21bf77dfa2ebf
+Manage a game player's High Score list.
+
+Your task is to build a high-score component of the classic Frogger game, one of the highest selling and addictive games of all time, and a classic of the arcade era. Your task is to write methods that return the highest score from the list, the last added score and the three highest scores.
+
+<!--more-->
 
 ``` python
 # high_scores.py

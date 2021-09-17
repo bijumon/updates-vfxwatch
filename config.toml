@@ -2,12 +2,13 @@ baseURL = "https://updates.vfxwatch.com"
 languageCode = "en-us"
 title = "Updates"
 contentDir = "Content"
-paginate = 9
-theme = "bklogs"
+paginate = 5
+theme = "poole"
+
+[author]
+  name = 'bijumon'
+  email = 'bj@you.got.mail'
 
 [params]
-    subtitle = "I dont think I've become old. Just more aware of where the next lavatory is - Terry Pratchett, The Last Hero"
+  tagline = "I dont think I've become old. Just more aware of where the next lavatory is - Terry Pratchett, The Last Hero"
 
-[markup]
-  [markup.highlight]
-    style = 'github'

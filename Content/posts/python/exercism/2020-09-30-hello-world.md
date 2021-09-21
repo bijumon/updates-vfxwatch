@@ -4,7 +4,7 @@ tags:
 - python
 - exercism
 - practice
-title: 'exercism python #1 - hello world'
+title: 'exercism python 1 - hello world'
 ---
 Write a function that returns the string "Hello, World!".
 

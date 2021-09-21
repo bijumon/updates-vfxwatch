@@ -12,3 +12,5 @@ theme = "poole"
 [params]
   tagline = "I dont think I've become old. Just more aware of where the next lavatory is - Terry Pratchett, The Last Hero"
 
+[permalinks]
+  posts = '/:year/:month/:title/'

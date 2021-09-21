@@ -4,7 +4,7 @@ tags:
 - python
 - exercism
 - practice
-title: 'exercism python #4 - high scores'
+title: 'exercism python 4 - high scores'
 ---
 Manage a game player's High Score list.
 

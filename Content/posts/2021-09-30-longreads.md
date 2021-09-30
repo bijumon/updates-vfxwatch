@@ -1,9 +1,10 @@
 ---
-title: "2021 09 30 Longreads"
+title: "Longreads"
 date: 2021-09-30T10:55:37+05:30
 ---
 [The meditative empathy of Susanna Clarke’s Piranesi - Vox](https://www.vox.com/culture/22677485/piranesi-susanna-clarke-vox-book-club)
 
+> There is something meditative about watching Piranesi live, the purity of his life and the kindness of it. And Piranesi’s kindness is possible in part because he lives in such communion with the House, which is his world. He respects the House and knows how to live within it, and in turn the House blesses him with its bounties. 
 
 [‘Heartbreak is part of doing anything you want to do’ | Paul Beatty | The Guardian](https://www.theguardian.com/books/2017/jun/11/paul-beatty-interview-the-sellout-booker-prize)
 
@@ -24,3 +25,5 @@ Off Center: Essays by Barbara Grizzutti Harrison (1980).
 
 
 [9 Fictional Friendships that Explore Male Intimacy - Electric Literature](https://electricliterature.com/9-fictional-friendships-that-explore-male-intimacy/)
+
+<!--more-->

@@ -1,0 +1,51 @@
+{{ define "main" -}}
+
+{{ .Content }}
+
+<div class="posts">
+    <!--$paginator-->
+    {{$p := .Pages}}
+    {{if .IsHome}}
+    {{$p = where site.RegularPages "Type" "updates"}}
+    {{else if eq .Kind "taxonomy"}}
+    {{$p = $p.ByTitle}}
+    {{end}}
+    {{$paginate := .Paginate $p}}
+
+	{{range $paginate.Pages}}
+    <article class="post">
+        <h1 class="post-title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h1>
+        <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
+            {{ .Date.Format "Mon, Jan 2, 2006" }}
+        </time>
+        {{ .Summary }}
+        <hr/>
+        <a href="{{ .Permalink }}">read more</a>
+    </article>
+    {{- end }}
+
+    <!--pagination-->
+    {{ $paginator := .Paginator }}
+    <!-- If there's more than one page. -->
+    {{ if gt $paginator.TotalPages 1 }}
+    <div class="pagination">
+        <!-- Previous page. -->
+        {{ if $paginator.HasPrev }}
+        <a class="pagination-item older" href="{{ $paginator.Prev.URL }}">Older</a>
+        {{ else }}
+        <span class="pagination-item older">Older</span>
+        {{ end }}
+        <!-- next page -->
+        {{ if $paginator.HasNext }}
+        <a class="pagination-item newer" href="{{ $paginator.Next.URL }}">Newer</a>
+        {{ else }}
+        <span class="pagination-item newer">Newer</span>
+        {{ end }}
+    </div>
+    {{ end }}
+
+</div>
+
+{{- end }}

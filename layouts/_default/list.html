@@ -31,15 +31,15 @@
     <div class="pagination">
         <!-- Previous page. -->
         {{ if $paginator.HasPrev }}
-        <a class="pagination-item older" href="{{ $paginator.Next.URL }}">Newer</a>
+        <a class="pagination-item older" href="{{ $paginator.Prev.URL }}">Newer</a>
         {{ else }}
-        <span class="pagination-item older">Older</span>
+        <span class="pagination-item older">Newer</span>
         {{ end }}
         <!-- next page -->
         {{ if $paginator.HasNext }}
-        <a class="pagination-item newer" href="{{ $paginator.Prev.URL }}">Older</a>
+        <a class="pagination-item newer" href="{{ $paginator.Next.URL }}">Older</a>
         {{ else }}
-        <span class="pagination-item newer">Newer</span>
+        <span class="pagination-item newer">Older</span>
         {{ end }}
     </div>
     {{ end }}

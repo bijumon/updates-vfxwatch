@@ -14,3 +14,15 @@ theme = "poole"
 
 [permalinks]
   updates = '/:year/:month/:title/'
+
+[outputs]
+    page = ["HTML"]
+    home = ["HTML", "RSS"]
+    section = ["HTML"]
+    taxonomyTerm = ["HTML"]
+    taxonomy = ["HTML"]
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediatype = "application/rss"
+    baseName = "rss"

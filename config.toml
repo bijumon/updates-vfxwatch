@@ -10,7 +10,7 @@ theme = "poole"
   email = 'bj@you.got.mail'
 
 [params]
-  tagline = "I dont think I've become old. Just more aware of where the next lavatory is - Terry Pratchett, The Last Hero"
+  tagline = "Time and I have quarrelled. All hours are midnight now. I had a clock and a watch, but I destroyed them both. I could not bear the way they mocked me --  Susanna Clarke, Jonathan Strange & Mr Norrell"
 
 [permalinks]
   updates = '/:year/:month/:title/'

@@ -39,3 +39,24 @@ code {
         }
     }
 }
+
+.index {
+
+    .post, .post-title {
+        margin-bottom: 4px;
+    }
+
+    .post-date {
+        display: inline;
+    }
+
+    .tag-list {}
+
+    .tag-count {
+        color: grey;
+    }
+
+    .description { 
+        
+    }
+}

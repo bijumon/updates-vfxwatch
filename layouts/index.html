@@ -1,0 +1,27 @@
+{{ define "main" -}}
+
+{{ .Content }}
+<div class="index">
+    <div class="recent-posts">
+        <h1>Recently</h1>
+        {{ range where (where .Site.Pages ".Section" "updates") "Kind" "page" }}
+        <p class="post-title">
+            <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
+                {{ .Date.Format "2006-01-02" }}
+            </time> &nbsp;&nbsp;&nbsp;
+            <span>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </span>
+        </p>
+        {{- end }}
+    </div>
+    <hr/>
+    <div class="tag-list">
+        <h1>Posts on a particular topic</h1>
+        {{ range .Site.Taxonomies.tags }}
+        <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+        <span class="tag-count">({{ .Count }})</span> &nbsp;
+        {{ end }}
+    </div>
+</div>
+{{- end }}

@@ -1,6 +1,6 @@
 ---
 title: "Longreads"
-date: 2021-09-30T10:55:37+05:30
+date: 2021-09-30
 ---
 [The Truth, by Stanisław Lem | The MIT Press Reader](https://thereader.mitpress.mit.edu/the-truth-by-stanislaw-lem/) by Stanisław Lem, translated by Antonia Lloyd-Jones
 

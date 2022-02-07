@@ -1,5 +1,5 @@
 ---
-title: "2021 October 28 - Notes"
+title: "Customize RSS in Hugo"
 date: 2021-10-28
 ---
 

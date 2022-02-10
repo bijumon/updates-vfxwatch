@@ -1,0 +1,26 @@
+{{ define "main" -}}
+
+{{ .Content }}
+
+    <section class="pages">
+    <ul>
+        <li><a href="/updates/">Blog</a></li>
+    {{ $sectionPages := where .Pages "Section" "!=" "updates" }}        
+    {{ range $sectionPages.ByTitle }}
+        <li><a href="{{ .Permalink }}">{{ title .Title }}</a></li>
+    {{ end }}
+    </ul>
+    </section>
+    <hr/>
+
+{{$p := .Pages}}
+{{$p = where site.RegularPages "Type" "updates"}}
+
+    <div>
+        <p><b>recent:</b></p>
+	{{range $p }}
+        <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+    {{- end }}
+    </div>
+
+{{- end }}

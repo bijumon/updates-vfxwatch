@@ -1,3 +1,4 @@
 ---
 title: "frontpage"
+layout: "frontpage"
 ---

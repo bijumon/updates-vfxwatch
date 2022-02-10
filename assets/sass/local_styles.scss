@@ -29,3 +29,23 @@ code {
 .post-title {
     text-transform: capitalize;
 }
+
+.pages ul {
+    margin: 0;
+    padding: 0;
+}
+
+.pages ul li {
+    display: inline;
+}
+
+.pages li:after {
+    color: grey;
+    content: "-";
+    padding: 0 4px 0 8px;
+}
+
+.pages li:last-child::after {
+    content: none;
+    padding:0;
+}

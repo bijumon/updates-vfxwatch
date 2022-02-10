@@ -5,11 +5,7 @@
 <div class="posts">
     <!--$paginator-->
     {{$p := .Pages}}
-    {{if .IsHome}}
     {{$p = where site.RegularPages "Type" "updates"}}
-    {{else if eq .Kind "taxonomy"}}
-    {{$p = $p.ByTitle}}
-    {{end}}
     {{$paginate := .Paginate $p}}
 
 	{{range $paginate.Pages}}

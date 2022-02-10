@@ -1,4 +1,4 @@
-baseURL = "https://updates.vfxwatch.com"
+#baseURL = "https://updates.vfxwatch.com"
 languageCode = "en-us"
 title = "Updates"
 contentDir = "Content"

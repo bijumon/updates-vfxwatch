@@ -1,0 +1,10 @@
+baseURL = ''
+title = 'Poole'
+theme = 'poole'
+
+[author]
+name = 'Jekyll Butler'
+email = 'first_last@you.got.mail'
+
+[params]
+tagline = 'Jekyll theme ported to Hugo'

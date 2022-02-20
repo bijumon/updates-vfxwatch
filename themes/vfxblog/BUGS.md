@@ -1,5 +1,0 @@
-- pagination styling and html
-- 404 page to be done
-- favicon and phone icon not yet working
-- syntax highlighting
-- optional dark-mode instead of automatic

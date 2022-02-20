@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Updates"
 contentDir = "Content"
 paginate = 5
-theme = "poole"
 pluralizelisttitles = false
 
 [author]
@@ -11,7 +10,7 @@ pluralizelisttitles = false
   email = 'bj@you.got.mail'
 
 [params]
-  tagline = "Time and I have quarrelled. All hours are midnight now. I had a clock and a watch, but I destroyed them both. I could not bear the way they mocked me --  Susanna Clarke, Jonathan Strange & Mr Norrell"
+  tagline = ""
 
 [permalinks]
   updates = '/:year/:month/:title/'

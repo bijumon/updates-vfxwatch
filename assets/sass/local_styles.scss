@@ -12,12 +12,15 @@ code {
 }
 
 .masthead {
+    margin-bottom: 8px;
+    padding: 4px 0;
+
     .masthead-title {
-        font-size: 3em;
+        font-size: 2.4em;
         font-weight: 900;
+        text-decoration: underline;
 
         small {
-            margin-top: 16px;
             display: block;
             font-size: 40%;
             font-weight: 300;
@@ -48,4 +51,10 @@ code {
 .pages li:last-child::after {
     content: none;
     padding:0;
+}
+
+.frontpage > h1 > small {
+    color: var(--border-color);
+    font-size: 0.7em;
+    font-weight: normal;
 }

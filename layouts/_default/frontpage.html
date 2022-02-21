@@ -4,12 +4,12 @@
 
 
     <div class="frontpage">
-        <p><b>recent:</b></p>
+        <p><b>recent:</b> {{ now.Format "Monday, January 2, 2006" }}</p>
 	{{range first 1 (where .Site.RegularPages "Type" "updates") }}
-        <h1>
-            {{ .Title }}
+        <div class="post-title">
+            <h1>{{ .Title }}</h1>
             <small> / <a href="{{ .Permalink }}">permalink</a></small>
-        </h1>
+        </div>
         {{ .Content }}
     {{- end }}
     </div>

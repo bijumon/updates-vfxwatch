@@ -9,10 +9,11 @@
     {{$paginate := .Paginate $p}}
 
 	{{range $paginate.Pages}}
-    <article class="post">
-        <h1 class="post-title">
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </h1>
+    <article class="blog-post">
+        <div class="post-title">
+            <h1>{{ .Title }}</h1>
+            <small> / <a href="{{ .Permalink }}">permalink</a></small>
+        </div>
         <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
             {{ .Date.Format "Mon, Jan 2, 2006" }}
         </time>

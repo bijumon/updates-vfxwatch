@@ -53,8 +53,19 @@ code {
     padding:0;
 }
 
-.frontpage > h1 > small {
-    color: var(--border-color);
-    font-size: 0.7em;
-    font-weight: normal;
+.frontpage, .blog-post {
+    .post-title {
+        
+        h1, small { display: inline-block; }
+        
+        small {
+            color: var(--border-color);
+            font-size: 0.7em;
+            font-weight: normal;
+        }
+        
+        a { 
+            color: var(--link-color); 
+        }
+    }
 }

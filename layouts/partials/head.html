@@ -14,8 +14,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-precomposed.png">
     <link rel="shortcut icon" href="/images/favicon.ico">
     {{- /* RSS */}}
-    {{ range .AlternativeOutputFormats -}}
-    <link rel="{{ .Rel }}" type="{{ .MediaType.Type | html }}" href="{{ .Permalink | safeURL }}">
-    {{ end -}}
+    <link rel="alternate" type="application/rss+xml" href="/rss.xml" />
   </head>
   

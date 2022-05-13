@@ -5,7 +5,7 @@ tags: [3D,design,learn]
 ---
 
 1. [Fundamentals v2.8 from Blender Foundation- YouTube](https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6)
-1. [BLENDER 3 BASICS: Intro to Blender - Learn Blender | Online 3D tutorials with CG Cookie](http://cgcookie.com/courses/blender-3-basics-intro-to-blender)
+1. [Blender 3 basics: Intro to Blender - Learn Blender | Online 3D tutorials with CG Cookie](http://cgcookie.com/courses/blender-3-basics-intro-to-blender)
 1. [Blender 3.0 Basics Course - CG Cookie - YouTube](https://www.youtube.com/playlist?list=PL3GeP3YLZn5ixsnIOIx9tB4v6s-rsw48X)
 1. [Blender Modeling Tutorials - CG Cookie - YouTube](https://www.youtube.com/playlist?list=PL13BA7F0F73F78F74)
 1. [Blender 3.0 Beginner Donut Tutorial - Blender Guru - YouTube](https://www.youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD)
